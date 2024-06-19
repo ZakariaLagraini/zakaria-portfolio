@@ -1,15 +1,17 @@
+// ScrollToTopStyles.js
+
 import styled from 'styled-components';
 
 export const ScrollToTopWrapper = styled.div`
   position: fixed;
-  bottom: 3rem;
-  right: 3rem;
+  bottom: 3rem; /* Move this higher if needed */
+  right: 5rem;  /* Adjust to ensure it's not behind the chatbot */
 
-  @media ${(props) => props.theme.breakpoints.sm}{
-    bottom: 1.5.rem;
-    right: 1.5rem;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    bottom: 1.5rem; /* Adjust to ensure it's visible on smaller screens */
+    right: 3.5rem; /* Adjust to ensure it's visible on smaller screens */
   }
-`
+`;
 
 export const ScrollToTopButton = styled.button`
   display: flex;
@@ -21,7 +23,7 @@ export const ScrollToTopButton = styled.button`
   cursor: pointer;
   transition: background-color 300ms ease;
   
-  &:hover{
+  &:hover {
     background-color: #fff;
   }
-`
+`;

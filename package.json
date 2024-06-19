@@ -8,6 +8,7 @@
     "start": "next start && next export"
   },
   "dependencies": {
+    "dialogflow": "^1.2.0",
     "framer-motion": "^7.6.17",
     "next": "^12.3.3",
     "next-dark-mode": "^3.0.0",
@@ -17,7 +18,8 @@
     "react-image-gallery": "^1.2.11",
     "react-modal": "^3.16.1",
     "styled-components": "^5.3.6",
-    "styled-normalize": "^8.0.7"
+    "styled-normalize": "^8.0.7",
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
     "eslint-config-prettier": "^8.5.0",
